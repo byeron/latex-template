@@ -1,0 +1,25 @@
+\documentclass[uplatex]{jsarticle}
+\usepackage[backend = biber,bibstyle =ieee,]{biblatex}
+\addbibresource{references.bib}
+
+\title{
+	\gt{title}\\
+}
+
+\author{
+	\gt{○○大学 ○○学科 ○○専攻 学籍番号 名前}\\
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+% ここに本文をかく
+aaa\cite{yamada}
+
+hogehoge
+% exampleフォルダを参考にしてください
+
+\printbibliography[title=参考文献]
+\end{document}
